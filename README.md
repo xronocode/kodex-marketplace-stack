@@ -24,9 +24,9 @@ This is a **monorepo-style** project split into three repositories:
 
 | Repository | Description |
 |------------|-------------|
-| **[marketplace-stack](https://github.com/xronocode/marketplace-stack)** | 🚀 **Start Here** — Docker Compose entry point |
-| **[marketplace-backend](https://github.com/xronocode/marketplace-backend)** | FastAPI backend with async SQLAlchemy |
-| **[marketplace-frontend](https://github.com/xronocode/marketplace-frontend)** | Vue 3 + TypeScript frontend (FSD architecture) |
+| **[kodex-marketplace-stack](https://github.com/xronocode/kodex-marketplace-stack)** | 🚀 **Start Here** — Docker Compose entry point |
+| **[kodex-marketplace-backend](https://github.com/xronocode/kodex-marketplace-backend)** | FastAPI backend with async SQLAlchemy |
+| **[kodex-marketplace-frontend](https://github.com/xronocode/kodex-marketplace-frontend)** | Vue 3 + TypeScript frontend (FSD architecture) |
 
 ## 🏁 Quick Start (Single Command)
 
@@ -171,11 +171,11 @@ See each repository's `docs/ai/` folder for:
 
 | Document | Backend | Frontend | Stack |
 |----------|---------|----------|-------|
-| Requirements | [✓](https://github.com/xronocode/marketplace-backend/blob/main/docs/requirements.xml) | [✓](https://github.com/xronocode/marketplace-frontend/blob/main/docs/requirements.xml) | — |
-| Technology | [✓](https://github.com/xronocode/marketplace-backend/blob/main/docs/technology.xml) | [✓](https://github.com/xronocode/marketplace-frontend/blob/main/docs/technology.xml) | — |
-| Development Plan | [✓](https://github.com/xronocode/marketplace-backend/blob/main/docs/development-plan.xml) | [✓](https://github.com/xronocode/marketplace-frontend/blob/main/docs/development-plan.xml) | — |
-| Knowledge Graph | [✓](https://github.com/xronocode/marketplace-backend/blob/main/docs/knowledge-graph.xml) | [✓](https://github.com/xronocode/marketplace-frontend/blob/main/docs/knowledge-graph.xml) | — |
-| Verification Plan | [✓](https://github.com/xronocode/marketplace-backend/blob/main/docs/verification-plan.xml) | [✓](https://github.com/xronocode/marketplace-frontend/blob/main/docs/verification-plan.xml) | — |
+| Requirements | [✓](https://github.com/xronocode/kodex-marketplace-backend/blob/main/docs/requirements.xml) | [✓](https://github.com/xronocode/kodex-marketplace-frontend/blob/main/docs/requirements.xml) | — |
+| Technology | [✓](https://github.com/xronocode/kodex-marketplace-backend/blob/main/docs/technology.xml) | [✓](https://github.com/xronocode/kodex-marketplace-frontend/blob/main/docs/technology.xml) | — |
+| Development Plan | [✓](https://github.com/xronocode/kodex-marketplace-backend/blob/main/docs/development-plan.xml) | [✓](https://github.com/xronocode/kodex-marketplace-frontend/blob/main/docs/development-plan.xml) | — |
+| Knowledge Graph | [✓](https://github.com/xronocode/kodex-marketplace-backend/blob/main/docs/knowledge-graph.xml) | [✓](https://github.com/xronocode/kodex-marketplace-frontend/blob/main/docs/knowledge-graph.xml) | — |
+| Verification Plan | [✓](https://github.com/xronocode/kodex-marketplace-backend/blob/main/docs/verification-plan.xml) | [✓](https://github.com/xronocode/kodex-marketplace-frontend/blob/main/docs/verification-plan.xml) | — |
 
 ## 🗺 Roadmap
 
@@ -228,12 +228,29 @@ Contributions are welcome! Please:
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/xronocode/marketplace-stack/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/xronocode/marketplace-stack/discussions)
+- **Issues:** [GitHub Issues](https://github.com/xronocode/kodex-marketplace-stack/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/xronocode/kodex-marketplace-stack/discussions)
+
+## 🤖 AI Stack
+
+This project was built 100% with AI coding assistants under human engineering supervision:
+
+| Category | Tools |
+|----------|-------|
+| **AI IDEs** | [Antigravity](https://antigravity.ai/) / [Codex](https://openai.com/codex) / [Qwen Code](https://github.com/QwenLM/Qwen) |
+| **Code Editors** | VS Code / [Kilo Code](https://kilocode.ai/) / QwenCode |
+| **LLM Models** | [Claude](https://anthropic.com/) / [Gemini](https://deepmind.google/technologies/gemini/) / Qwen |
+
+### Development Methodology
+
+- **GRACE** (Graph-RAG Anchored Code Engineering) — Contract-first development with semantic markup
+- **Human-in-the-Loop** — All AI-generated code reviewed and validated by senior engineer
+- **Verification-Driven** — Every module has contracts, tests, and knowledge graph links
+
+---
 
 ## 🙏 Acknowledgments
 
-- Built with **Cursor** AI IDE
 - Powered by **GRACE** methodology (Graph-RAG Anchored Code Engineering)
 - Human engineering supervision by **Mikhail Evdokimov**
 
