@@ -1,0 +1,12 @@
+# Database and MinIO data (runtime artifacts)
+data/
+
+# Environment files with secrets
+.env
+
+# Docker
+*.log
+*.pid
+
+# macOS
+.DS_Store
